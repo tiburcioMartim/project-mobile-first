@@ -1,0 +1,32 @@
+main {
+    background-color: #fff;
+}
+
+main img {
+    width: 100%;
+}
+
+.img_container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 29%;
+    left: 6%;
+}
+
+.overlay h1 {
+    margin: 0 0 .5rem 0;
+}
+
+.overlay h2 {
+    font-size: medium;
+    font-weight: 400;
+    padding: 0;
+    width: 190px;
+    margin-bottom: .5rem;
+}

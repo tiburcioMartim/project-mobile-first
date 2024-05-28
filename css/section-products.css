@@ -1,0 +1,43 @@
+.all_products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 30px;
+    margin: 30px auto 10px auto;
+}
+
+.container_filter a:hover{
+    color: #797979;
+}
+
+.container_filter_left a{
+    margin-right: 7px;
+}
+
+.container_filter_right a {
+    margin-left: 7px;
+}
+
+.container_products{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    margin: 0 auto 0 auto;
+}
+
+.all_products button {
+    height: 25px;
+    margin: 2rem 0;
+}
