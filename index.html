@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
         integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/benefits.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/global.css">
+    <!-- <link rel="stylesheet" href="css/header-response.css"> -->
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/product.css">
@@ -19,24 +20,34 @@
 </head>
 
 <body>
-    <header>
+    <header class="sz-8pt bg-white">
         <div class="menu-toggle">
-            <div class="menu-hamburguer"></div>
-            <div class="menu-hamburguer"></div>
-            <div class="menu-hamburguer"></div>
+            <div class="menu-hamburguer bg-gray-8"></div>
+            <div class="menu-hamburguer bg-gray-8"></div>
+            <div class="menu-hamburguer bg-gray-8"></div>
         </div>
-
-        <aside class="aside-container">
-            <div class="aside-top">
-                <img src="img/icons/logo-white.svg" alt="Logo">
-                <h3>WATCH NICE</h3>
+        <div class="aside-top-left mg15">
+            <a href="#"><img src="img/icons/logo-black.svg" alt="Logo"></a>
+            <a href="#">
+                <h3 class="aside-h3">WATCH NICE</h3>
+            </a>
+        </div>
+        <aside class="aside-container bg-gray-8">
+            <div class="aside-top bg-gray-9 c-white">
+                <div class="aside-top-left">
+                    <img src="img/icons/logo-white.svg" alt="Logo">
+                    <h3 class="c-gray-2">WATCH NICE</h3>
+                </div>
+                <div class="aside-top-right">
+                    <span class="btn-span-close sz-16pt c-gray-2">X</span>
+                </div>
             </div>
             <div class="aside-menu-container">
                 <nav class="aside-nav">
                     <ul class="aside-ul">
-                        <li class="aside-li"><a href="#">Home</a></li>
-                        <li class="aside-li"><a href="#">About</a></li>
-                        <li class="aside-li"><a href="#">Contact</a></li>
+                        <li class="aside-li sz-12pt"><a class="c-white" href="#">Home</a></li>
+                        <li class="aside-li sz-12pt"><a class="c-white" href="#">About</a></li>
+                        <li class="aside-li sz-12pt"><a class="c-white" href="#">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -54,19 +65,22 @@
 
 
 
+
+
+
         <!-- <div class="header__top">
             <div class="header__top__left">
-                <span>Get 10% off on your first <span class="color_orange">purchase!</span></span>
+                <span>Get 10% off on your first <span class="c-orange">purchase!</span></span>
             </div>
             <div class="header__top__right">
                 <a href="#">My Account</a>
-                <a href="#">Shopping Cart(<span class="color_orange">0</span>)</a>
+                <a href="#">Shopping Cart(<span class="c-orange">0</span>)</a>
             </div>
         </div>
         <div class="header__logo">
             <img src="img/icons/logo-black.svg" alt="Logo">
         </div>
-        <div class="header__nav">
+        <div class="header__nav sz-10pt">
             <img class="align_left_search" src="img/icons/search.svg" alt="Search">
             <nav>
                 <a href="#">Demos</a>
@@ -79,25 +93,45 @@
             </nav>
             <img class="align_right_cart" src="img/icons/cart.svg" alt="Cart">
         </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </header>
 
-    <main>
+    <main class="bg-white">
         <div class="img_container">
             <img src="img/bg-watch.jpg" alt="Watch in wall">
             <div class="overlay">
-                <h1 class="">Mono Watch</h1>
+                <h1 class="c-gray-9">Mono Watch</h1>
                 <h2>Cool Exemples Of Creative Furniture Design</h2>
-                <button class="btn_model_01" type="button">SHOP NOW</button>
+                <button class="btn_model_01 c-gray-9" type="button">SHOP NOW</button>
             </div>
 
-            <div class="benefits">
+            <div class="benefits bg-white">
                 <div class="benefits_container">
                     <div class="benefits_container_left">
                         <img src="img/icons/truck.svg" alt="Truck">
                     </div>
                     <div class="benefits_container_right">
-                        <span class="benefits_title">Free shipping</span>
-                        <span class="benefits_subTitle">Suffered Alteration in Some Form</span>
+                        <span class="benefits_title sz-9pt">Free shipping</span>
+                        <span class="benefits_subTitle sz-8pt">Suffered Alteration in Some Form</span>
                     </div>
                 </div>
 
@@ -106,8 +140,8 @@
                         <img src="img/icons/cash-delivery.svg" alt="Cash Delivery">
                     </div>
                     <div class="benefits_container_right">
-                        <span class="benefits_title">Cash on Delivery</span>
-                        <span class="benefits_subTitle">The internet Tend To Repeat</span>
+                        <span class="benefits_title sz-9pt">Cash on Delivery</span>
+                        <span class="benefits_subTitle sz-8pt">The internet Tend To Repeat</span>
                     </div>
                 </div>
 
@@ -116,8 +150,8 @@
                         <img src="img/icons/return.svg" alt="Return">
                     </div>
                     <div class="benefits_container_right">
-                        <span class="benefits_title">30 Days Retunrs</span>
-                        <span class="benefits_subTitle">Making it Look Like Readable</span>
+                        <span class="benefits_title sz-9pt">30 Days Retunrs</span>
+                        <span class="benefits_subTitle sz-8pt">Making it Look Like Readable</span>
                     </div>
                 </div>
             </div>
@@ -140,77 +174,77 @@
             </div>
 
             <div class="container_products">
-                <div class="product">
-                    <img class="product_img" src="img/products/item01.jpg" alt="">
+                <div class="product bg-gray-1">
+                    <img class="product_img bg-white" src="img/products/item01.jpg" alt="">
                     <div class="product_info_container">
                         <div class="product_info">
-                            <span class="product_name">Rolex Daytona 18ct White Gold Blue Dial</span>
-                            <span class="product_price">R$ 212.526,00</span>
+                            <span class="product_name sz-12pt">Rolex Daytona 18ct White Gold Blue Dial</span>
+                            <span class="product_price sz-14pt">R$ 212.526,00</span>
                         </div>
                         <img class="product_heart" src="img/icons/heart.svg" alt="Heart">
                     </div>
                 </div>
 
 
-                <div class="product">
-                    <img class="product_img" src="img/products/item02.jpg" alt="">
+                <div class="product bg-gray-1">
+                    <img class="product_img bg-white" src="img/products/item02.jpg" alt="">
                     <div class="product_info_container">
                         <div class="product_info">
-                            <span class="product_name">Relógio Tommy Hilfiger Tyson Masculino Dourado</span>
-                            <span class="product_price">R$ 1.250,00</span>
+                            <span class="product_name sz-12pt">Relógio Tommy Hilfiger Tyson Masculino Dourado</span>
+                            <span class="product_price sz-14pt">R$ 1.250,00</span>
                         </div>
                         <img class="product_heart" src="img/icons/heart.svg" alt="Heart">
                     </div>
                 </div>
 
 
-                <div class="product">
-                    <img class="product_img" src="img/products/item03.jpg" alt="">
+                <div class="product bg-gray-1">
+                    <img class="product_img bg-white" src="img/products/item03.jpg" alt="">
                     <div class="product_info_container">
                         <div class="product_info">
-                            <span class="product_name">Cosmograph Daytona</span>
-                            <span class="product_price">R$ 555.500,00</span>
+                            <span class="product_name sz-12pt">Cosmograph Daytona</span>
+                            <span class="product_price sz-14pt">R$ 555.500,00</span>
                         </div>
                         <img class="product_heart" src="img/icons/heart.svg" alt="Heart">
                     </div>
                 </div>
 
 
-                <div class="product">
-                    <img class="product_img" src="img/products/item04.jpg" alt="">
+                <div class="product bg-gray-1">
+                    <img class="product_img bg-white" src="img/products/item04.jpg" alt="">
                     <div class="product_info_container">
                         <div class="product_info">
-                            <span class="product_name">Submariner Date</span>
-                            <span class="product_price">R$ 13.900,00</span>
+                            <span class="product_name sz-12pt">Submariner Date</span>
+                            <span class="product_price sz-14pt">R$ 13.900,00</span>
                         </div>
                         <img class="product_heart" src="img/icons/heart.svg" alt="Heart">
                     </div>
                 </div>
             </div>
 
-            <button class="btn_model_01" type="button">Load More</button>
+            <button class="btn_model_01 c-gray-9" type="button">Load More</button>
         </section>
     </main>
 
-    <footer>
-        <div class="footer_detail"></div>
+    <footer class="bg-gray-9">
+        <div class="footer_detail bg-gray-8"></div>
         <div class="footer_container">
             <div class="footer_container_left">
                 <div class="footer_container_left_align">
                     <img src="img/icons/logo-white.svg" alt="Logo">
-                    <span class="footer_container_left_logoName">WATCH NICE</span>
+                    <span class="sz-16pt c-white">WATCH NICE</span>
                 </div>
                 <div class="footer_container_left_span">
-                    <span>@2024 Grafic Croton. All Rights Reserved</span>
+                    <span class="c-gray-2">@2024 Grafic Croton. All Rights Reserved</span>
                 </div>
             </div>
             <div class="footer_container_mid">
-                <span>Endereço com Nº 200, Bairro, Cidade - Estado</span>
+                <span class="c-gray-2">Endereço com Nº 200, Bairro, Cidade - Estado</span>
             </div>
             <div class="footer_container_right">
-                <span>Facebook</span>
-                <span>Twitter</span>
-                <span>Google</span>
+                <span class="c-gray-2">Facebook</span>
+                <span class="c-gray-2">Twitter</span>
+                <span class="c-gray-2">Google</span>
             </div>
         </div>
     </footer>

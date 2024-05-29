@@ -1,0 +1,199 @@
+/* Estilos para telas menores que 576px */
+@media (max-width: 575.98px) {}
+
+/* Estilos para telas entre 576px e 767.98px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header {
+        border-bottom: 1px solid #00000017;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        height: 150px;
+    }
+
+    .menu-toggle {
+        display: none;
+        width: 40px;
+        height: 40px;
+        border-radius: .5rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 15px 0 0 15px;
+        cursor: pointer;
+    }
+
+    .menu-hamburguer {
+        display: none;
+        width: 25px;
+        height: 2px;
+        cursor: pointer;
+    }
+
+    .aside-container {
+        display: none;
+        width: 55%;
+        height: 100%;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        right: 0;
+    }
+
+    .aside-container.open {
+        display: none;
+    }
+
+    .aside-top {
+        display: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .aside-top-left {
+        display: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .aside-h3 {
+        display: none;
+        margin: 0;
+    }
+
+    .aside-top-right {
+        display: none;
+        margin-right: 15px;
+    }
+
+    .btn-span-close {
+        display: none;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .btn-span-close:hover {
+        display: none;
+        color: #4d4d4d;
+        transition: .3s;
+    }
+
+    .aside-top img {
+        display: none;
+        width: 30px;
+        height: 30px;
+        margin-left: 15px;
+    }
+
+    .aside-top h3 {
+        visibility: unset;
+        margin-left: 5px;
+    }
+
+    .aside-ul {
+        display: none;
+        padding: 0 0 0 30px;
+    }
+
+    .aside-li {
+        display: none;
+        list-style: none;
+        margin: 0 0 10px 0;
+    }
+
+    .aside-li a {
+        display: none;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .header__top {
+        display: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .header__top__left {
+        display: none;
+        align-self: flex-start;
+        padding: 5px 0 5px 15px;
+    }
+
+    .header__top__right {
+        display: none;
+        align-self: flex-end;
+        padding: 5px 15px 5px 0;
+    }
+
+    .header__top__right a {
+        display: none;
+        margin-left: 10px;
+    }
+
+    .header__logo {
+        display: none;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+    }
+
+    .header__logo img {
+        display: none;
+        width: 50px;
+        height: 50px;
+    }
+
+    .header__nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .header__nav nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header__nav nav a:hover {
+        color: orange;
+    }
+
+    .header__nav a {
+        padding-right: 12px;
+    }
+
+    .header__nav img {
+        height: 15px;
+    }
+
+    .align_left_search {
+        margin-left: 15px;
+    }
+
+    .align_right_cart {
+        margin-right: 15px;
+    }
+
+}
+
+/* Estilos para telas maiores ou iguais a 768px */
+@media (min-width: 768px) {}

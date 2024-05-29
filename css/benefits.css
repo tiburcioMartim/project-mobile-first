@@ -6,7 +6,6 @@
     width: 90%;
     height: 65px;
     margin: -35px auto 0 auto;
-    background-color: #fff;
     border: 1px solid #00000017;
 }
 
@@ -16,33 +15,31 @@
     padding: 0 8px;
 }
 
-.benefits_container_left{
+.benefits_container_left {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.benefits_container_left img{
+.benefits_container_left img {
     height: 30px;
     width: 30px;
 }
 
-.benefits_container_right{
+.benefits_container_right {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 90px;
 }
 
-.benefits_title{
+.benefits_title {
     display: inline-block;
-    font-size: .7524rem;
     font-weight: 600;
     padding-left: 5px;
 }
 
-.benefits_subTitle{
+.benefits_subTitle {
     display: inline-block;
-    font-size: .6688rem;
     padding: 5px;
 }
