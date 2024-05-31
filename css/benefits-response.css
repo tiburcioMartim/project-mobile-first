@@ -1,6 +1,7 @@
 @media (max-width: 575.98px) {
     .benefits {
         height: 120px;
+        margin: 14px auto 0 auto;
     }
 
     .benefits_container {
